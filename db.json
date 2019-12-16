@@ -1,0 +1,161 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "Nombre": "Imane",
+      "Apellidos": "Assakale Briguech",
+      "UserName": "iassakale",
+      "Password": "1a1dc91c907325c69271ddf0c944bc72",
+      "Email": "iassakale@uoc.edu",
+      "Telefono": "666555111",
+      "Localidad": "Pinto",
+      "Provincia": "Madrid",
+      "Sexo": "Mujer"
+    },
+    {
+      "id": "2",
+      "Nombre": "Nehro",
+      "Apellidos": "El Mamouni",
+      "UserName": "nelmamouni",
+      "Password": "1a1dc91c907325c69271ddf0c944bc72",
+      "Email": "nelmamouni@uoc.edu",
+      "Telefono": "6615355111",
+      "Localidad": "Pinto",
+      "Provincia": "Madrid",
+      "Sexo": "Hombre"
+    },
+    {
+      "id": 3,
+      "Nombre": "Sirin",
+      "Apellidos": "sirin@gmail.com",
+      "Email": "sirin@gmail.com",
+      "Password": "d0db05aabb991942a64e1b599ce379f9",
+      "UserName": "sirinota",
+      "Telefono": "654987321",
+      "Localidad": "Pinto",
+      "Provincia": "Madrid",
+      "Sexo": "Mujer"
+    },
+    {
+      "Nombre": "Sirin",
+      "Apellidos": "ldkjfjf@kfkf.es",
+      "Email": "ldkjfjf@kfkf.es",
+      "Password": "c6db3fd7421f66f39d1ba5c9224e86c0",
+      "UserName": "lslslslsl",
+      "Telefono": "654214333",
+      "Localidad": "pinto",
+      "Provincia": "madrid",
+      "Sexo": "Mujer",
+      "id": 4
+    },
+    {
+      "Nombre": "Sirin",
+      "Apellidos": "sirin@udjd.es",
+      "Email": "sirin@udjd.es",
+      "Password": "bb987eb1e401c9f44aaf8e227c0cfbed",
+      "UserName": "sirinota",
+      "Telefono": "654987322",
+      "Localidad": "Pinto",
+      "Provincia": "Madrid",
+      "Sexo": "Mujer",
+      "id": 5
+    },
+    {
+      "Nombre": "Sirirn",
+      "Apellidos": "jdjdjd@jfgjf.es",
+      "Email": "jdjdjd@jfgjf.es",
+      "Password": "1e9aecc92a3b915e9b2f0baf010d4aac",
+      "UserName": "jdfjdjdj",
+      "Telefono": "jdjdjd",
+      "Localidad": "jdfjdj",
+      "Provincia": "jdjdj",
+      "Sexo": "Mujer",
+      "id": 6
+    }
+  ],
+  "documentos": [
+    {
+      "id": "1",
+      "Tipo": "pdf",
+      "Tamanyo": "200",
+      "Nombre": "masterBigData.pdf",
+      "Validado": "1",
+      "Base64": "gfrghdsfhdfgdfgdhg",
+      "Fecha": "2019-12-17"
+    }
+  ],
+  "comentarios": [
+    {
+      "id": "1",
+      "IdIntercambio": "1",
+      "IdUsuarioEmisor": "2",
+      "Comentario": "Muy contento",
+      "Estrellas": "5",
+      "Fecha": "2019-12-23 09:00:00"
+    }
+  ],
+  "intercambios": [
+    {
+      "id": "2",
+      "IdSabiduria": "1",
+      "IdUsuarioReceptor": "2",
+      "Modalidad": "onLine",
+      "Precio": "30",
+      "FechaAcuerdo": "2019-12-01 12:00:00",
+      "FechaFinalizacion": "2019-12-15 08:00:00",
+      "FechaReclamacion": null,
+      "Satisfecho": "1"
+    }
+  ],
+  "materias": [
+    {
+      "id": "1",
+      "Nombre": "NOSQL",
+      "Descripcion": "Bases de datos No relacionales",
+      "Area": "BIG DATA",
+      "NivelEducativo": "PostEducativo",
+      "Validada": "1"
+    }
+  ],
+  "documentosabiduria": [
+    {
+      "IdSabiduria": "1",
+      "idDocumento": "1"
+    }
+  ],
+  "mensajes": [
+    {
+      "id": "1",
+      "IdUsuarioEmisor": "2",
+      "IdUsuarioReceptor": "1",
+      "Mensaje": "Estoy haciendo un proyecto de investigación y necesito información sobre las bases de datos NoSQL",
+      "Fecha": "2019-12-18 10:00:00",
+      "Leido": "0",
+      "Archivado": "0"
+    }
+  ],
+  "monedero": [
+    {
+      "IdUsuario": "1",
+      "Monedas": "100"
+    },
+    {
+      "IdUsuario": "2",
+      "Monedas": "100"
+    }
+  ],
+  "sabiduria": [
+   {
+      "id": "1",
+      "idMateria": "1",
+      "IdUsuario": "1",
+      "Nivel": "Avanzado"
+    } ,
+    {
+      "id": "2",
+      "idMateria": "1",
+      "IdUsuario": "2",
+      "Nivel": "Medio"
+    }
+  ]
+}
