@@ -1,18 +1,6 @@
 {
   "usuarios": [
     {
-      "id": "1",
-      "Nombre": "Imane",
-      "Apellidos": "Assakale Briguech",
-      "UserName": "iassakale",
-      "Password": "1a1dc91c907325c69271ddf0c944bc72",
-      "Email": "iassakale@uoc.edu",
-      "Telefono": "666555111",
-      "Localidad": "Pinto",
-      "Provincia": "Madrid",
-      "Sexo": "Mujer"
-    },
-    {
       "id": "2",
       "Nombre": "Nehro",
       "Apellidos": "El Mamouni",
